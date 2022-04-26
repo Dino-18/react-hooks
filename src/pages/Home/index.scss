@@ -1,0 +1,30 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.bottom {
+  flex: 0;
+  border-top: solid 1px var(--adm-border-color);
+}
+
+.adm-tab-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+
+  .adm-tab-bar-item-active {
+    color: rgb(33, 185, 122)
+  }
+}
